@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		700829EA1D8E99590063909D /* sliderthumb.png in Resources */ = {isa = PBXBuildFile; fileRef = 700829E91D8E99590063909D /* sliderthumb.png */; };
 		7083BA9C1D8E91BF00276097 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7083BA9B1D8E91BF00276097 /* main.m */; };
 		7083BA9F1D8E91BF00276097 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7083BA9E1D8E91BF00276097 /* AppDelegate.m */; };
 		7083BAA21D8E91BF00276097 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7083BAA11D8E91BF00276097 /* ViewController.m */; };
@@ -15,6 +16,7 @@
 		7083BAAA1D8E91BF00276097 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7083BAA81D8E91BF00276097 /* LaunchScreen.storyboard */; };
 		7083BAB51D8E91BF00276097 /* PZXVideoViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7083BAB41D8E91BF00276097 /* PZXVideoViewControllerTests.m */; };
 		7083BAC01D8E91BF00276097 /* PZXVideoViewControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7083BABF1D8E91BF00276097 /* PZXVideoViewControllerUITests.m */; };
+		70B386C31D8E93780083127D /* PZXVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70B386C21D8E93780083127D /* PZXVideoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		700829E91D8E99590063909D /* sliderthumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sliderthumb.png; sourceTree = "<group>"; };
 		7083BA971D8E91BF00276097 /* PZXVideoViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PZXVideoViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7083BA9B1D8E91BF00276097 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7083BA9D1D8E91BF00276097 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +54,8 @@
 		7083BABB1D8E91BF00276097 /* PZXVideoViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PZXVideoViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7083BABF1D8E91BF00276097 /* PZXVideoViewControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PZXVideoViewControllerUITests.m; sourceTree = "<group>"; };
 		7083BAC11D8E91BF00276097 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70B386C11D8E93780083127D /* PZXVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PZXVideoViewController.h; sourceTree = "<group>"; };
+		70B386C21D8E93780083127D /* PZXVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PZXVideoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +110,7 @@
 				7083BA9E1D8E91BF00276097 /* AppDelegate.m */,
 				7083BAA01D8E91BF00276097 /* ViewController.h */,
 				7083BAA11D8E91BF00276097 /* ViewController.m */,
+				70B386C01D8E93520083127D /* PZXVideoViewController */,
 				7083BAA31D8E91BF00276097 /* Main.storyboard */,
 				7083BAA61D8E91BF00276097 /* Assets.xcassets */,
 				7083BAA81D8E91BF00276097 /* LaunchScreen.storyboard */,
@@ -138,6 +144,16 @@
 				7083BAC11D8E91BF00276097 /* Info.plist */,
 			);
 			path = PZXVideoViewControllerUITests;
+			sourceTree = "<group>";
+		};
+		70B386C01D8E93520083127D /* PZXVideoViewController */ = {
+			isa = PBXGroup;
+			children = (
+				700829E91D8E99590063909D /* sliderthumb.png */,
+				70B386C11D8E93780083127D /* PZXVideoViewController.h */,
+				70B386C21D8E93780083127D /* PZXVideoViewController.m */,
+			);
+			name = PZXVideoViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +223,7 @@
 				TargetAttributes = {
 					7083BA961D8E91BF00276097 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = E454L5TM3H;
 					};
 					7083BAAF1D8E91BF00276097 = {
 						CreatedOnToolsVersion = 7.3;
@@ -244,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7083BAAA1D8E91BF00276097 /* LaunchScreen.storyboard in Resources */,
+				700829EA1D8E99590063909D /* sliderthumb.png in Resources */,
 				7083BAA71D8E91BF00276097 /* Assets.xcassets in Resources */,
 				7083BAA51D8E91BF00276097 /* Main.storyboard in Resources */,
 			);
@@ -273,6 +291,7 @@
 				7083BAA21D8E91BF00276097 /* ViewController.m in Sources */,
 				7083BA9F1D8E91BF00276097 /* AppDelegate.m in Sources */,
 				7083BA9C1D8E91BF00276097 /* main.m in Sources */,
+				70B386C31D8E93780083127D /* PZXVideoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +434,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E454L5TM3H;
 				INFOPLIST_FILE = PZXVideoViewController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pengzuxin.PZXVideoViewController;
@@ -426,6 +446,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E454L5TM3H;
 				INFOPLIST_FILE = PZXVideoViewController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pengzuxin.PZXVideoViewController;
@@ -498,6 +519,7 @@
 				7083BAC61D8E91BF00276097 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7083BAC71D8E91BF00276097 /* Build configuration list for PBXNativeTarget "PZXVideoViewControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +528,7 @@
 				7083BAC91D8E91BF00276097 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7083BACA1D8E91BF00276097 /* Build configuration list for PBXNativeTarget "PZXVideoViewControllerUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +537,7 @@
 				7083BACC1D8E91BF00276097 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
